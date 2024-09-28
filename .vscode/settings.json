@@ -1,0 +1,20 @@
+{
+  "editor.tabSize": 4,
+  "editor.formatOnSave": true,
+  "remote.autoForwardPorts": false,
+  "[markdown]": {
+      "editor.formatOnSave": false
+  },
+  "editor.codeActionsOnSave": {
+      "source.organizeImports": "explicit"
+  },
+  "prettier.tabWidth": 4,
+  "[json][jsonc]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[python]": {
+      "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+  "mypy-type-checker.args": ["--check-untyped-defs"],
+  "black-formatter.args": ["--line-length=127"]
+}
